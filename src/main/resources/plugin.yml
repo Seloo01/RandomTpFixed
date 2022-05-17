@@ -1,0 +1,8 @@
+name: TpPluginFixedVersion
+version: '${project.version}'
+main: tppluginfixedversion.tppluginfixedversion.TpPluginFixedVersion
+api-version: 1.18
+commands:
+  rtp:
+    description: Random teleport. write /rtp
+    usage: /<command>
